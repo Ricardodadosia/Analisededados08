@@ -12,4 +12,9 @@ for i in range(3):
 
     lista_catalogo.append(livro)
 
-print(lista_catalogo)
+#print(lista_catalogo)
+
+for elemento in lista_catalogo:
+    # print(elemento)
+    if elemento['ano'] >= 2020:
+        print(elemento)
